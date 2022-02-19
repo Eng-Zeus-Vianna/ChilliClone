@@ -118,7 +118,7 @@ export const Content = styled.div`
     justify-content: space-between;
     color: #fff;
     font-size: 0.75rem;
-    padding: 0 1.25rem;
+    padding: 0 auto;
 
     > li {
       padding-left: 1.5rem;
@@ -131,11 +131,17 @@ export const Content = styled.div`
       & + li {
         border-left: 1px solid #707070;
       }
+
+      p {
+        font-size: 18px;
+        margin-right: 1rem;
+        padding-left: 1rem;
+      }
     }
   }
-  p {
-    font-size: 16px;
-    padding: 0 0.7rem;
+
+  .header-bottom :nth-child(2) {
+    margin: 0 0.2rem;
   }
 
   .header-bottom img {

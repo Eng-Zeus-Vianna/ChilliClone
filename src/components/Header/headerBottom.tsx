@@ -33,7 +33,7 @@ export function HeaderBottom() {
           </li>
           <li>
             <span>minha conta</span>
-            <img src={UserIcon} alt="usuário" />
+            <img src={UserIcon} alt="usuário" style={{ paddingRight: 0 }} />
             <img src={HeartIcon} alt="minha lista" />
           </li>
 
